@@ -5,6 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kuba</title>
+        <style>
+            :root {
+                background: black;
+                color: white;
+                font-family: 'Comic Sans MS';
+            }
+        </style>
     </head>
     <body>
         <h1>Cześć</h1>
@@ -12,5 +19,9 @@
         <center>
             <h3>Środek</h3>
         </center>
+        <button onclick="document.getElementById('gratulacje').play(); document.getElementById('ok').style.display=''">Darmowe bobuxy</button>
+        <audio src="gratulacje.mp3" id="gratulacje"></audio>
+<br>
+        <button onclick="window.close()" style="display: none;" id="ok">OK</button>
     </body>
 </html>
